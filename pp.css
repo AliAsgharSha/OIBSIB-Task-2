@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: lightseagreen;
+    background: skyblue;
     color: #fff;
 }
 #header{
@@ -51,7 +51,7 @@ nav ul li a::after{
     width: 0;
     bottom: -6px;
     height: 3px;
-    background: lightgreen;
+    background: red;
     border-radius: 4px;
     transition: 0.5s;
     justify-content: center;
@@ -134,7 +134,7 @@ p{
     content: '';
     width: 0;
     height: 3px;
-    background: lightgreen;
+    background: red;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -201,7 +201,7 @@ p{
 }
 
 .service-list div:hover{
-    background: lightgreen;
+    background: red;
     transform: translateY(-10px);
 }
 
@@ -277,7 +277,7 @@ p{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid lightgreen;
+    border: 1px solid red;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -286,7 +286,7 @@ p{
 }
 
 .btn:hover{
-    background: lightgreen;
+    background: red;
 }
 
 .contactleft{
@@ -302,7 +302,7 @@ p{
 }
 
 .contactleft p i{
-    color: lightgreen;
+    color: red;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -321,12 +321,12 @@ p{
 }
 
 .social-icons a:hover{
-    color: lightgreen;
+    color: red;
     transform:translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: lightgreen;
+    background: red;
 }
 
 .contactright form{
